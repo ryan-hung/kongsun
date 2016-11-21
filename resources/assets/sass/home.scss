@@ -1,0 +1,80 @@
+.home-banner {
+    background: url('../img/home-banner.jpg') no-repeat center;
+    min-height: 640px;
+    background-size: cover;
+    text-align: center;
+    &-title {
+        margin-top: 180px;
+        margin-bottom: 0;
+        font-size: 92px;
+    }
+    .subtitle {
+        color: $color-555;
+        font-size: 38px;
+        font-weight: normal;
+    }
+    .link-enter {
+        margin-top: 50px;
+        padding: 24px 54px;
+        border-radius: 3px;
+        display: inline-block;
+        background: rgba(255, 255, 255, .8);
+        color: $color-red;
+        font-size: 30px;
+        &:hover {
+            color: darken($color: $color-red, $amount: 10%);
+            background: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+        }
+    }
+}
+.text-red {
+    color: $color-red !important;
+}
+.products {
+    $bg-color: #f8f7f7;
+    &-title {
+        margin-top: 80px;
+        font-size: 36px;
+        color: $color-51;
+    }
+    &-subtitle {
+        margin-top: 15px;
+        padding: 0 200px;
+        color: $color-999;
+    }
+    .control {
+        margin-bottom: 50px;
+    }
+    .control-left,
+    .control-right {
+        display: inline-block;
+        width: 26px;
+        text-align: center;
+        line-height: 26px;
+        background: #2d2b2b;
+        color: #fff;
+        border-radius: 2px;
+        i.fa {
+            font-size: 18px;
+        }
+    }
+    .control-right {
+        margin-left: 5px;
+        background: $color-yellow;
+    }
+    .product {
+        box-shadow: 0px 0px 5px #ccc;
+        h4 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            color: $color-333;
+            font-size: 18px;
+        }
+        p {
+            padding: 0 15px 15px;
+            color: $color-777;
+        }
+    }
+}

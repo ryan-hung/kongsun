@@ -44138,26 +44138,27 @@ exports.default = {
   replace: false
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div>\n    <app-header></app-header>\n</div>\n<div id=\"app\">\n    <h1 class=\"text-danger\">111111</h1>\n    <router-view></router-view>\n</div>\n<div>\n    <app-footer></app-footer>\n</div>\n\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<app-header></app-header>\n<div id=\"app\">\n    <router-view></router-view>\n</div>\n<app-footer></app-footer>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-db51ca3c", module.exports)
+    hotAPI.createRecord("_v-0e89c17c", module.exports)
   } else {
-    hotAPI.update("_v-db51ca3c", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-0e89c17c", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"./layout/AppFooter.vue":12,"./layout/AppHeader.vue":13,"vue":8,"vue-hot-reload-api":5}],11:[function(require,module,exports){
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<section class=\"home-banner\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <h1 class=\"home-banner-title text-bold\">为您<span class=\"text-red\">指点</span>江山</h1>\n                <p class=\"subtitle\">您的消费金融风控平台</p>\n                <a href=\"#\" class=\"link-enter\">立即入驻</a>\n            </div>\n        </div>\n    </div>\n</section>\n<section class=\"products\">\n    <div class=\"container\">\n        <div class=\"row text-center\">\n            <h3 class=\"products-title\">\n                产品介绍\n            </h3>\n            <p class=\"products-subtitle\">\n                为介绍占个位置，通过与大型互联网电商平台的深度合作，平台将开发基于不同信贷业务场景和垂直细分客户市场的信贷服务产品。有效改善信贷资产质量和提升业务运营效率。\n            </p>\n            <div class=\"control\">\n                <a class=\"control-left\">\n                    <i class=\"fa fa-angle-left\"></i>\n                </a>\n                <a class=\"control-right\">\n                    <i class=\"fa fa-angle-right\"></i>\n                </a>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-xs-6 col-md-3\">\n                <div class=\"product\">\n                    <img src=\"img/product-2.jpg\" alt=\"\" class=\"img-responsive\">\n                    <h4>小额金融贷</h4>\n                    <p>\n                        深圳、东莞、广州、重庆、北京月收入：拥有稳定收入，及良好的信用记录...\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                <div class=\"product\">\n                    <img src=\"img/product-1.jpg\" alt=\"\" class=\"img-responsive\">\n                    <h4>天翼贷</h4>\n                    <p>\n                        深圳、东莞、广州、重庆、北京月收入：拥有稳定收入，及良好的信用记录...\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                <div class=\"product\">\n                    <img src=\"img/product-3.jpg\" alt=\"\" class=\"img-responsive\">\n                    <h4>电商e贷</h4>\n                    <p>\n                        深圳、东莞、广州、重庆、北京月收入：拥有稳定收入，及良好的信用记录...\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                <div class=\"product\">\n                    <img src=\"img/product-4.jpg\" alt=\"\" class=\"img-responsive\">\n                    <h4>电商e贷</h4>\n                    <p>\n                        深圳、东莞、广州、重庆、北京月收入：拥有稳定收入，及良好的信用记录...\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-xs-offset-1 col-xs-10 col-sm-offset-4 col-sm-4 col-md-offset-5 col-md-2\">\n                <a href=\"#\" class=\"link-more\">查看更多</a>\n            </div>\n        </div>\n    </div>\n</section>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-58960e6e", module.exports)
+    hotAPI.createRecord("_v-62b83b14", module.exports)
   } else {
-    hotAPI.update("_v-58960e6e", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-62b83b14", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"vue":8,"vue-hot-reload-api":5}],12:[function(require,module,exports){
@@ -44189,9 +44190,9 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-5b072146", module.exports)
+    hotAPI.createRecord("_v-703d84ec", module.exports)
   } else {
-    hotAPI.update("_v-5b072146", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-703d84ec", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"vue":8,"vue-hot-reload-api":5}],13:[function(require,module,exports){
@@ -44217,15 +44218,15 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<header class=\"kongsun-header\">\n    <nav class=\"navbar navbar-default\" role=\"navigation\">\n        <div class=\"container\">\n            <!-- Brand and toggle get grouped for better mobile display -->\n            <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n                    <span class=\"sr-only\">Toggle navigation</span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                </button>\n                <a class=\"navbar-brand\" href=\"#\">江山控股</a>\n            </div>\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n                <ul class=\"nav navbar-nav\">\n                    <li><span class=\"glyphicon glyphicon-earphone\"></span>400-960-6700</li>\n                </ul>\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li><a href=\"#\">首页</a></li>\n                    <li><a href=\"#\">产品中心</a></li>\n                    <li><a href=\"#\">集团介绍</a></li>\n                    <li><a href=\"#\">招贤纳士</a></li>\n                    <li><a href=\"#\">申请入驻</a></li>\n                </ul>\n            </div><!-- /.navbar-collapse -->\n        </div><!-- /.container-fluid -->\n    </nav>\n</header>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<header class=\"ks-header\">\n    <nav class=\"navbar navbar-default\" role=\"navigation\">\n        <div class=\"container\">\n            <!-- Brand and toggle get grouped for better mobile display -->\n            <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n                    <span class=\"sr-only\">Toggle navigation</span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                </button>\n                <a class=\"navbar-brand\" href=\"#\">\n                    <img src=\"/img/logo.png\" alt=\"\">\n                </a>\n            </div>\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n                <ul class=\"nav navbar-nav\">\n                    <li class=\"phone\"><i class=\"fa fa-phone m-r-xs\"></i>400-960-6700</li>\n                </ul>\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li class=\"active\"><a href=\"#\">首页</a></li>\n                    <li><a href=\"#\">产品中心</a></li>\n                    <li><a href=\"#\">集团介绍</a></li>\n                    <li><a href=\"#\">招贤纳士</a></li>\n                    <li class=\"settled\"><a href=\"#\">申请入驻</a></li>\n                </ul>\n            </div><!-- /.navbar-collapse -->\n        </div><!-- /.container-fluid -->\n    </nav>\n</header>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-7c398538", module.exports)
+    hotAPI.createRecord("_v-dd202e44", module.exports)
   } else {
-    hotAPI.update("_v-7c398538", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-dd202e44", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"vue":8,"vue-hot-reload-api":5}],14:[function(require,module,exports){
@@ -44259,7 +44260,7 @@ require('./bootstrap');
 
 var router = new _vueRouter2.default({
     history: true,
-    root: 'dashboard'
+    root: '/'
 });
 
 router.map({

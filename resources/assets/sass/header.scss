@@ -1,0 +1,48 @@
+body {
+    font-family: "Microsoft Yahei", sans-serif;
+    color: $color-333;
+}
+.ks-header {
+    .navbar {
+        height: $navbar-height;
+        margin-bottom: 0;
+        border-radius: 0;
+        border: none;
+    }
+    .navbar-brand {
+        padding: 16px 15px;
+        height: $navbar-height;
+    }
+    .navbar-nav {
+        padding: 20px 0;
+        line-height: 40px;
+        li > a {
+            padding: 0 20px;
+            font-size: 16px;
+            line-height: 40px;
+            &:hover {
+                color: $color-cyan;
+            }
+        }
+        li.active {
+            background: none;
+            a {
+                color: $color-cyan;
+                background-color: transparent;
+                &:hover {
+                    color: $color-cyan;
+                    background-color: transparent;
+                }
+            }
+        }
+        li.settled a {
+            border: 1px solid $color-yellow;
+            border-radius: 2px;
+            color: $color-yellow;
+        }
+    }
+    .phone {
+        margin-left: 25px;
+        color: $color-cyan;
+    }
+}

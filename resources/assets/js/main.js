@@ -14,7 +14,7 @@ require('./bootstrap')
 
 var router = new VueRouter({
     history: true,
-    root: 'dashboard'
+    root: '/'
 })
 
 

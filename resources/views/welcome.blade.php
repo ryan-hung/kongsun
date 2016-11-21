@@ -7,6 +7,7 @@
     <title>Kongsun - 江山控股</title>
     <link rel="shortcut icon" href="{{ config('website.icon') }}">
     <!-- Fonts -->
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap 3.3.6 -->
     <link rel="stylesheet" href="/css/app.css">
 </head>
