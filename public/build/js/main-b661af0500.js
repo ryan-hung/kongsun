@@ -44162,7 +44162,23 @@ if (module.hot) {(function () {  module.hot.accept()
   }
 })()}
 },{"vue":8,"vue-hot-reload-api":5}],12:[function(require,module,exports){
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<footer class=\"ks-footer\">\n\n</footer>\n"
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = {
+    methods: {
+        handleQrcode: function handleQrcode() {
+            $('.foot-qrcode').fadeIn();
+        },
+        hideQrcode: function hideQrcode() {
+            $('.foot-qrcode').fadeOut();
+        }
+    }
+};
+if (module.exports.__esModule) module.exports = module.exports.default
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<footer class=\"ks-footer\">\n    <div class=\"container\">\n        <p class=\"lead\">合作伙伴</p>\n        <div class=\"row\">\n            <div class=\"col-md-6 left-box\">\n                <a href=\"#\">\n                    <img src=\"img/icon-1.jpg\" alt=\"\">\n                </a>\n                <a href=\"#\">\n                    <img src=\"img/icon-2.jpg\" alt=\"\">\n                </a>\n                <a href=\"#\">\n                    <img src=\"img/icon-3.jpg\" alt=\"\">\n                </a>\n            </div>\n            <div class=\"col-md-6 right-box\">\n                <a href=\"#\">\n                    <img src=\"img/icon-4.jpg\" alt=\"\">\n                </a>\n                <a href=\"#\">\n                    <img src=\"img/icon-5.jpg\" alt=\"\">\n                </a>\n                <a href=\"#\">\n                    <img src=\"img/icon-6.jpg\" alt=\"\">\n                </a>\n            </div>\n        </div>\n        <div class=\"friends\">\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n            <a href=\"#\">合作伙伴</a>\n        </div>\n    </div>\n</footer>\n<footer class=\"ks-foot\">\n    <div class=\"foot-qrcode\">\n        <img src=\"img/qrcode.png\" alt=\"\">\n    </div>\n    <div class=\"foot-icons\">\n        <a href=\"#\">\n            <img src=\"img/icon-weibo.png\" alt=\"\">\n            \n        </a>\n        <a href=\"javascript:;\" v-on:mouseenter=\"handleQrcode()\" v-on:mouseout=\"hideQrcode()\" class=\"weibo\">\n            <img src=\"img/icon-weixin.png\" alt=\"\">\n        </a>\n        <a href=\"#\">\n            <img src=\"img/icon-qzone.png\" alt=\"\">\n        </a>\n    </div>\n    <div class=\"foot-links\">\n        <a href=\"#\">产品中心</a>\n        <a href=\"#\">集团介绍</a>\n        <a href=\"#\">关于我们</a>\n    </div>\n    <div class=\"foot-desc\">\n        Copyright © Hunan kongsun Infomation Technology Limited  |   All rights reserved\n    </div>\n</footer>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)

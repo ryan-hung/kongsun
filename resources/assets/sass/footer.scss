@@ -1,2 +1,79 @@
 .ks-footer {
+    background: #fbf7f1;
+    border-top: 1px solid #f8f7f7; 
+    p.lead {
+        margin-top: 28px;
+        margin-bottom: 28px;
+        font-size: 18px;
+        color: $color-333;
+    }
+    .left-box {
+        a{
+            display: inline-block;
+            margin-right: 60px;
+        }
+    }
+    .right-box {
+        text-align: right;
+        a{
+            display: inline-block;
+            margin-left: 60px;
+        }
+    }
+    .friends {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        a {
+            display: inline-block;
+            margin-right: 15px;
+            color: $color-555;
+            &:hover {
+                color: darken($color: $color-555, $amount: 15%);
+                
+            }
+        }
+
+    }
+}
+.ks-foot {
+    position: relative;
+    background: #ddb87f;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .foot-icons {
+        text-align: center;
+        a {
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    .foot-links {
+        margin-top: 38px;
+        margin-bottom: 25px;
+        text-align: center;
+        a {
+            line-height: 1.1;
+            display: inline-block;
+            padding: 0 24px;
+            border-right: 1px solid #222222;
+            color: #222;
+        }
+        a:last-child {
+            border-right: none;
+        }
+    }
+    .foot-desc {
+        text-align: center;
+        color: #826d4f;
+    }
+    .foot-qrcode {
+        position: absolute;
+        width: 180px;
+        left: 50%;
+        margin-left: -90px;
+        top: -110px;
+        display: none;
+    }
+    
 }

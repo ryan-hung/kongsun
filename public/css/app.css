@@ -6403,4 +6403,64 @@ body {
   box-shadow: 0px 0px 2px #ccc;
   border-radius: 3px; }
 
+.ks-footer {
+  background: #fbf7f1;
+  border-top: 1px solid #f8f7f7; }
+  .ks-footer p.lead {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-size: 18px;
+    color: #333; }
+  .ks-footer .left-box a {
+    display: inline-block;
+    margin-right: 60px; }
+  .ks-footer .right-box {
+    text-align: right; }
+    .ks-footer .right-box a {
+      display: inline-block;
+      margin-left: 60px; }
+  .ks-footer .friends {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .ks-footer .friends a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #555; }
+      .ks-footer .friends a:hover {
+        color: #2f2f2f; }
+
+.ks-foot {
+  position: relative;
+  background: #ddb87f;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  .ks-foot .foot-icons {
+    text-align: center; }
+    .ks-foot .foot-icons a {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px; }
+  .ks-foot .foot-links {
+    margin-top: 38px;
+    margin-bottom: 25px;
+    text-align: center; }
+    .ks-foot .foot-links a {
+      line-height: 1.1;
+      display: inline-block;
+      padding: 0 24px;
+      border-right: 1px solid #222222;
+      color: #222; }
+    .ks-foot .foot-links a:last-child {
+      border-right: none; }
+  .ks-foot .foot-desc {
+    text-align: center;
+    color: #826d4f; }
+  .ks-foot .foot-qrcode {
+    position: absolute;
+    width: 180px;
+    left: 50%;
+    margin-left: -90px;
+    top: -110px;
+    display: none; }
+
 /*# sourceMappingURL=app.css.map */
